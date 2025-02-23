@@ -5,7 +5,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-✔-orange)
 
 ## Overview
-This project builds a text classification model to categorize textual data into predefined classes using NLP and deep learning techniques.
+This project builds a text classification model to categorize textual data into predefined classes using NLP.
 
 ## Tools Used
 - **Python**
@@ -26,6 +26,7 @@ This project builds a text classification model to categorize textual data into 
    - Removed special characters, punctuation, and extra spaces.  
    - Converted text to lowercase and removed stopwords.  
    - Performed tokenization, and stemming for text standardization.
+   - Performed categorical encoding on label Emotion
 
 2. **Feature Engineering & Representation:**  
    - Implemented **TF-IDF** and **CountVectorizer** to convert text into numerical representations.  
