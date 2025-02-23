@@ -25,20 +25,22 @@ This project builds a text classification model to categorize textual data into 
 1. **Data Preprocessing & Cleaning:**  
    - Removed special characters, punctuation, and extra spaces.  
    - Converted text to lowercase and removed stopwords.  
-   - Performed tokenization, stemming, and lemmatization for text standardization.
+   - Performed tokenization, and stemming for text standardization.
 
 2. **Feature Engineering & Representation:**  
    - Implemented **TF-IDF** and **CountVectorizer** to convert text into numerical representations.  
-   - Used **Word2Vec** embeddings for deep learning models.  
+   - Used **Word2Vec** embeddings for deep learning models.
+   - Generated **Word Cloud** for visualizing text data.
+   - Applied **PCA** for dimensionality reduction and visualization.  
 
-3. **Model Selection & Training:**  
+3. **Model Selection & Training:**
+   - Applied Latent Dirichlet Allocation (LDA) to extract meaningful topics from text data.
    - Trained traditional ML models (Logistic Regression, Decision Tree, Random Forest).   
    - Used word embeddings to improve accuracy.
 
-4. **Model Evaluation & Optimization:**
-   - Applied Latent Dirichlet Allocation (LDA) to extract meaningful topics from text data.
+5. **Model Evaluation & Optimization:**
    - Evaluated performance using accuracy, precision-recall.  
    - Fine-tuned hyperparameters for optimal results.  
 
 ## Results
-- Achieved **92% accuracy** in classifying text into predefined categories.  
+- Achieved **85% accuracy** in classifying text into predefined categories.  
